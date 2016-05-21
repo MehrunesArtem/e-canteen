@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_zavtrak"
+
+            android:title="Завтрак" />
+        <item
+            android:id="@+id/nav_obed"
+
+            android:title="Обед" />
+        <item
+            android:id="@+id/nav_uzhin"
+
+            android:title="Ужин" />
+
+    </group>
+
+    <item android:title="Управление заказом">
+        <menu>
+            <item
+                android:id="@+id/nav_prosmotr"
+
+                android:title="просмотр заказа" />
+            <item
+                android:id="@+id/nav_otmena"
+
+                android:title="отмена заказа" />
+        </menu>
+    </item>
+
+</menu>
